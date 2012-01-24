@@ -1,23 +1,24 @@
---- #YAML:1.0
-name:               Set-Partitions-Similarity
-version:            0.50
-abstract:           Routines to measure similarity of partitions.
+---
+abstract: 'Routines to measure similarity of partitions.'
 author:
-    - Jeff Kubina (jeff.kubina@gmail.com)
-license:            perl
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
+  - 'Jeff Kubina (jeff.kubina@gmail.com)'
 build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    Data::Dump:    1.14
-    Test::Simple:  0.44
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.56
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.59, CPAN::Meta::Converter version 2.112150'
+license: perl
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Set-Partitions-Similarity
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Data::Dump: 1.19
+  List::MoreUtils: 0.33
+  Text::CSV: 1.21
+version: 0.54

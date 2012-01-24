@@ -8,7 +8,7 @@ BEGIN
 {
   use Exporter ();
   use vars qw($VERSION @ISA @EXPORT @EXPORT_OK %EXPORT_TAGS);
-  $VERSION     = '0.50';
+  $VERSION     = '0.54';
   @ISA         = qw(Exporter);
   @EXPORT      = qw();
   @EXPORT_OK   = qw(getAccuracy getAccuracyAndPrecision getDistance getPrecision areSubsetsDisjoint);
